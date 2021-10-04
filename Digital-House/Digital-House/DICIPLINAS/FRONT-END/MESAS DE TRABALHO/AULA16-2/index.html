@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main class="container">
+        <h1>Assista Homem-Aranha 3 aqui na Seven Cinema</h1>
+        <P>Motivos para assistir a esse filme:</P>
+        <ul>
+            <li>Início do Aranha-verso!</li>
+            <li>Retorno de Tobey e Andrew!</li>
+            <li>Vai influenciar diretamente o filme: Dr. Estranha - Multiverso da Loucura</li>
+        </ul>
+        <p>Preencha os informações abaixo e faça parte da pré-estreia</p>
+        <section>
+            <form action="#" method="POST">
+                <fieldset class="dados1">
+                    <legend>Dados Pessoais:</legend>
+                    <div class="dados">
+                        <label for="nome">Nome completo:</label>
+                        <input type="name" name="nome" id="nome" required>
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email" required>
+                        <label for="telefone" class="telefone">Telefone:</label>
+                        <input type="tel" name="telefone" id="telefone" disabled="disabled">
+                        <label for="informacoes">informações relevantes:</label>
+                        <textarea name="informacoes" id="informacoes" cols="22" rows="5"></textarea>
+                    </div>
+                </fieldset>
+                <fieldset>
+                <legend>Número de acompanhantes:</legend>
+                    <div>
+                        <input type="radio" name="acompanhantes" id="1pessoa">
+                        <label for="1pessoa">1</label>
+                        <input type="radio" name="acompanhantes" id="2pessoa">
+                        <label for="2pessoa">2</label>
+                        <input type="radio" name="acompanhantes" id="3pessoa">
+                        <label for="3pessoa">3</label>
+                        <input type="radio" name="acompanhantes" id="eu" checked>
+                        <label for="eu">Somente eu</label>
+                    </div> 
+                </fieldset>
+                <fieldset>
+                    <legend>Qual dia e horário que você deseja assistir?</legend>
+                        <div>
+                        <input type="date" name="data" id="data" required>
+                        <select name="horario" id="horario" >
+                            <option value="">Escolha um horário</option>
+                            <optgroup label="horario">
+                                <option value="17h">17:00</option>
+                                <option value="1830h" disabled="disabled">18:30</option>
+                                <option value="21h">21:00</option>
+                                <option value="2359h">23:59</option>
+                            </optgroup>
+                        </select>
+                        </div>
+                </fieldset>
+                <button type="reset">Cancelar</button>
+                <button type="submit">Enviar e reservar</button>
+            </form>
+        </section> 
+    </main>  
+</body>
+</html>

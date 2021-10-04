@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main class="container">
+            <img src="img/SONHO AUTOMOTIVO.jpg" alt="Image" height="200" width="230">
+            <h2>Dream Car</h2>
+            <h3>Aluguel de carros</h3>
+            <h4>Temos os super carros mais luxuosos e desejados</h4>
+        <section>
+            <form action="#" method="POST">
+                <fieldset>
+                    <legend>Dados pessoais:</legend>
+                    <label for="nome">Nome: </label>
+                    <input type="text" name="nome" id="nome">
+                    <label for="Sobrenome">Sobrenome: </label>
+                    <input type="text" Sobrenome="Sobrenome" id="Sobrenome">
+                    <label for="email">Email: </label>
+                    <input type="email" name="email" id="email" placeholder="Insira seu email" required>
+                    <label for="telefone">Telefone: </label>
+                    <input type="tel" name="telefone" id="telefone">
+                </fieldset>
+                <fieldset>
+                    <legend>Escolha um carro:</legend>
+                    <select name="Carros" id="Carros">
+                        <option value="">Escolha uma opção</option>
+                        <optgroup label="Carros">
+                            <option value="Ferrari">Ferrari italia 458 </option>
+                            <option value="lamborghini">Lamborghini aventador</option>
+                            <option value="Porsche">Porsche 911</option>
+                            <option value="BMW">BMW i8</option>
+                            <option value="Audi">Audi R8</option>
+                        </optgroup>
+                    </select>
+                </fieldset>
+                <fieldset>
+                    <legend>Pagar: </legend>
+                    <div class="Pagar">
+                      <input type="radio" name="Pagar" id="Cartão de credito">
+                      <label for="credito">Cartão de credito</label>
+                      <input type="radio" name="Pagar" id="Cartão de debito">
+                      <label for="debito">Cartão de debito</label>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Agendamento</legend>
+                    <div class="Pegar">
+                    <input type="date" name="data" id="data">
+                    <input type="time" name="time" id="time">
+                    <input type="radio" name="pegar" id="local">
+                    <label for="local">Pegar no local</label>
+                    <input type="radio" name="pegar" id="Levar até você" checked>
+                    <label for="entrega">Levar até você</label>
+                </div>
+                </fieldset>
+                <button type="reset">Cancelar reserva</button>
+                <button type="submit">Confirmar reserva</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

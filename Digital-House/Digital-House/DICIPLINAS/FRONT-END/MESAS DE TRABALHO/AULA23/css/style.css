@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: medium;
+    /* font-weight: bold; */
+}
+
+html {
+    scroll-behavior: smooth;
+}
+img.banner {
+    width: 100%;
+}
+header {
+    display: block;
+    background: #f7cf18;
+    height: 60px;
+    width: 100%;
+}
+
+header nav {
+    display: block;
+    width: 100%;
+    position: fixed;
+    background: #f7cf18;
+}
+
+header nav ul {
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+}
+
+header nav ul li {
+    list-style-type: none;
+}
+
+ul li a {
+    padding: 20px 10px;
+    display: block;
+    text-decoration: none;
+    color: #21144a;
+    font-weight: bold;
+}
+ul li a:hover {
+    padding: 20px 10px;
+    display: block;
+    text-decoration: underline;
+    color: #d61439;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+section#produto, section#servico  {
+    flex: 50%;
+    padding: 10px;
+}
+
+section#empresa, section#contato  {
+    padding: 10px;
+}
+/* section#empresa img {
+    border: 3px solid #f7cf18;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+    margin: 25px 0;
+    box-shadow: 0 0 5px;
+    text-align: center;
+    position: relative;
+    left: 25vw;
+} */
+h2 {
+    font-size: 1.5rem;
+    color: #f7cf18;
+    text-shadow: 1px 1px 2px #21144a;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 50px 0;
+    text-align: center;
+    background: #8b6bf0;
+    background: #333333;
+    box-shadow: 0 0 8px #000;
+    color: #FFF;
+}

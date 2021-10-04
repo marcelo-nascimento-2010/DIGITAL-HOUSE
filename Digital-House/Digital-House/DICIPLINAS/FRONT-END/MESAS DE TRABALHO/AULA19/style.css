@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+*{
+    box-sizing: border-box; 
+    color: white;
+}
+
+body{
+    background-color: rgb(24, 23, 23);
+}
+
+main{
+    display: flex;
+    gap:40px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+img{
+    height: 225px;
+    width: 380px;
+}
+
+h1{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+h2{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 15px;
+    
+}
+h6{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+p{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 10px;
+    color: gray;
+}
+
+img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    box-shadow: 10px 10px 5px 5px rgb(54, 54, 54);
+}

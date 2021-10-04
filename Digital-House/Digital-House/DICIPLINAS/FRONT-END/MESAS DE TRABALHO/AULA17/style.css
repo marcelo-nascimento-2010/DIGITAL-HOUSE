@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  button {
+    margin: 70px;
+    border: 0;
+    border-radius: 100px;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: 300;
+    background-color: #f8fc05;
+    color: rgb(0, 0, 0);
+  
+    transition:
+      background-color, 2.0s,
+      color, 2.0s;
+  }
+  
+  button:hover {
+    background-color: #fafafa;
+    color: rgb(255, 255, 255)
+  }
+  
+  img {
+  
+    width: 400px;
+    transform: scale(1) rotate(deg);
+  }
+  
+  img:hover {
+    animation: deslizar 2s normal;
+  }
+  
+  @keyframes deslizar {
+    0% { opacity: 0%; }
+    2% { opacity: 0%;}
+    500% { opacity: 100%; transform: translateX(400px) rotate(15deg);}
+    100% { opacity: 100%; transform: translateX(400px) rotate(15deg);}
+   
+  }
+  div{
+    width: 300px;
+    height: 900px;
+    text-align: center;
+    color: #1baa08;
+    background-color: #fdef6c;
+  }
+  
+  div:hover{
+      animation: girar 6s normal;
+  }
+  @keyframes girar {
+    0% { opacity: 0%; transform: scale(3) ; }
+    50% { opacity: 100%; transform: translate(400px) rotate(20deg);}
+    100% { opacity: 0%; transform: scale(4) rotate(5deg) }
+  }

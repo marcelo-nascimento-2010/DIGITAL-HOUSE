@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+  *{
+    box-sizing: border-box; 
+    color: white;
+   }
+   
+   body{
+   
+   main{
+     grid-area: main;
+   }
+
+   .paragrafo{
+     background-color:  rgba(0, 32, 44,75%); 
+     font-family: 'PT Sans', sans-serif;
+     
+   
+   header{
+    margin:0;
+    width: 110%;
+    border: 4px solid rgba(0, 0, 0);
+    background-color:  rgba(0, 32, 44); 
+    grid-area: header;
+    display: grid;
+    grid-template-columns: 151px 2fr;
+    grid-template-areas: 
+        'logo nome';
+   }
+
+   .logo{
+    grid-area: logo;
+    width: 90px;
+    height: 90px;
+    position: relative;
+   }
+
+   h1{
+     text-align: center;
+     align-items: center;
+     font-size: 30px;
+     font-family: 'Roboto', sans-serif;
+     grid-area: nome;
+   }
+
+   aside{
+     grid-area: aside;
+     background-color:  rgba(0, 32, 44,75%);
+     border: 3px inset rgb(0, 32, 44);
+     margin: 16px 10px 20px 0px;
+   }
+
+   .cidades{
+    display: inline-block;
+  }
+  
+   .divaside{
+     position: relative;
+     display: grid;
+     grid-template-areas: 
+       'titulo'
+       'imagem1'
+       'imagem2'
+       'imagem3'
+       'imagem4'
+       'imagem5';
+    }
+
+    h3{
+      font-family: 'PT Sans', sans-serif;
+      font-size: 15px;
+      position: relative;
+      grid-area: titulo;
+      text-align: center;
+     }
+
+    h4{
+      font-family: 'PT Sans', sans-serif;
+      font-size: 12px;
+      position: relative;
+      text-align: left;
+    }
+
+    #Porto Seguro - BA{
+    grid-area: imagem1;
+    margin: 10px;
+   }
+
+   #São Paulo - SP{
+    grid-area: imagem2;
+    margin: 10px;
+   }
+
+    #Rio de Janeiro - RJ{
+      grid-area: imagem4;
+      margin: 10px;
+    }
+
+
+   img{
+     height: 180px;
+     width: 320px;
+   }
+   
+   .Veja algumas das vantagens{
+     box-sizing: border-box;
+     background-color:  rgba(0, 32, 44,75%);
+     border: 3px inset rgb(0, 32, 44);
+     margin-bottom: 20px;
+     margin-top: 20px;
+     
+   }
+
+   h2{
+    padding-left: 20px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 25px;
+   }
+
+   li{
+    font-family: 'PT Sans', sans-serif;
+  }
+   
+   footer{
+     background-color:  rgba(0, 32, 44,75%);
+     border: 3px inset rgb(0, 32, 44);
+     font-size: 17px;
+     padding: 5px;
+     position: relative;
+     text-align: justify;
+     grid-area: footer;
+     
+   }
+   
+   .instagram1{
+     height: 40px;
+     width: 40px;
+     position: relative;
+     left: 93%;
+       
+   }
+   
+   #p1{
+     border: 0px;
+     width: 180px;
+     box-sizing: border-box;
+     margin:0px;
+     left: 78%;
+     position: relative;
+     text-align: right;
+     top: 30px;
+     font-family: 'Roboto', sans-serif;
+    
+   }
+   
+   #p2{
+     border: 0px;
+     width: 180px;
+     box-sizing: border-box;
+     margin:0px;
+     left: 78%;
+     position: relative;
+     text-align: right;
+     top: 30px;
+     font-family: 'Roboto', sans-serif;
+     
+   }
+
+button{
+    margin: 20px;
+    border: 0;
+    border-radius: 7.5px;
+    padding: 15px;
+    font-size: 15px;
+    font-weight: 20px;
+    background-color: #eaeaea;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    transition: 
+        background-color, 0.5s,
+        color, 1s;
+   }
+
+button:hover {
+    background-color: #1a73e8;
+    color: white;
+}
+
+optgroup, option, select{
+  color:#000;
+}
+
+section{
+  font-family: 'Roboto', sans-serif;
+}
+
+.imagens{
+  display: flex;
+  gap:40px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cidades:hover{
+  transform: scale(1.4);
+  transition: 1s;
+  box-shadow: 20px 20px 20px 10px rgb(0, 32, 44);
+}
+
+a:parceiro{
+  color: orange;
+}
+
+input{
+  color: #000;
+}
+
+input:focus{
+  color:orangered;
+  font-weight: bold;
+}
+
+label, select{
+  display: block;
+}
+
+.cadastro{
+  padding: 0 20%;
+}
+
+#cadastro{
+  background-color:  rgba(0, 32, 44,75%);
+  border: 3px inset rgb(0, 32, 44);
+  border-radius: 50px;
+  box-sizing: border-box;
+
+  margin-bottom: 20px;
+  margin-top: 20px;
+
+}
+
+.botao label{
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.dados{
+  margin-bottom: 10px;
+}
+
+.botao{
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+}
+
+.botao img{
+  width: 75px;
+  height: 75px;
+}

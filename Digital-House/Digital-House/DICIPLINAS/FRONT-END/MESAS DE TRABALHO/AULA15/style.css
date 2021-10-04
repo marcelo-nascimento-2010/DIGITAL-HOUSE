@@ -1,0 +1,67 @@
+body {
+  height: 1200px;
+  background-color: silver;
+}
+
+form {
+  padding: 40px 10px;
+}
+
+input:focus {
+  background-color: yellow;
+}
+
+a {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+a:link  {
+  color: rgb(17, 151, 73);
+}
+
+/* visited =  altera cor dos links clicados */
+a:visited {
+  color: rgb(231, 124, 24);
+}
+/* hover= muda a cor do link quando passa o mouse*/
+a:hover  {
+  color: rgb(202, 167, 12);
+}
+
+/* quando vc clicar em algum link, ele vai ativar (e aí vc pode colocar algo para acontecer, como mudar a cor de fundo) */
+/* voce pode fazer com paragrafo também*/
+p:active{
+    background-color: yellow;
+  }
+
+a:active {
+  color:rgb(17, 133, 7);
+}
+
+p:target {
+  background-color: gold;
+}
+
+#p3::first-letter {
+  color: red;
+  font-size: 50px;
+}
+
+#p3::after{
+  content: "Atenção aqui!";
+  color: red;
+  font-style: italic;
+  font-weight: bold;
+}
+
+button {
+  background-color: red;
+  color: white;
+}
+
+button:disabled {
+    border: rgb(202, 167, 12);
+  background-color: rgb(231, 124, 24);
+  color: white;
+}
